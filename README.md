@@ -22,13 +22,17 @@ A URI obtida dos dados sem tratamento está em: https://archive.ics.uci.edu/data
 
 É preciso ter um ambiente virtual python para executar a api. (Utilizei venv).
 
+`python -m venv env`
+
+`source env/scripts/activate`
+
 - Na pasta api/ e com o ambiente virtual ativado, execute:
 
-`pip instal -r requirements.txt`
+`pip install -r requirements.txt`
 
 - Execute o projeto flask:
 
-`run --host 0.0.0.0 --port 5000`
+`flask run --host 0.0.0.0 --port 5000`
 
 - Para rodar o teste de acurácia do modelo:
 
