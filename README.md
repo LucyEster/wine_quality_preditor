@@ -9,6 +9,8 @@ O objetivo é disponibilizar uma interação com o modelo de Machine Learning pa
 
 Basta fazer o download do projeto e abrir o arquivo index.html no seu browser.
 
+<img height="500px" src="./front/img/front.PNG" alt="front" />
+
 # API
 
 O projeto consiste em encapsular o modelo de Machine Learning Extra Tree Classifier (ET) com um dataset de propriedades físico-químicas de vinhos, para predizer a qualidade de um novo vinho via input  na API.
