@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Wine quality</title>
+    
+</head>
+
+<body>
+     <!-- Cabeçalho de informações do sistema -->
+    <header>
+        <div class="title">
+            <h2>Preditor de qualidade de vinhos</h2>
+            <br>
+            <p>Este sistema foi desenvolvido para auxiliar na classificação de qualidade de vinhos com base em informações físico-químicas.</p>
+            <p>Para isso, basta preencher os campos abaixo com os dados do vinho e clicar em "Classificar".</p>
+        </div>
+        <!-- <div class="banner">
+            <img src="img/home.jpeg">
+        </div> -->
+    </header>
+
+     <!-- Opções para adicionar um novo item -->
+     
+    <section class="newItem">
+        <input type="text" id="fixed_acidity" placeholder="Acidez fixada">
+        <input type="text" id="volatile_acidity" placeholder="Acidez volátil">
+        <input type="text" id="citric_acid" placeholder="Ácido cítrico">
+        <input type="text" id="residual_sugar" placeholder="Açúcar residual">
+        <input type="text" id="chlorides" placeholder="Clorídeos">
+        <input type="text" id="free_sulfur_dioxide" placeholder="Dióxido sulfúrico livre">
+        <input type="text" id="total_sulfur_dioxide" placeholder="Dióxido sulfúrico total">
+        <input type="text" id="density" placeholder="Densidade">
+        <input type="text" id="p_h" placeholder="pH">
+        <input type="text" id="sulphates" placeholder="Sulfatos">
+        <input type="text" id="alcohol" placeholder="Álcool">
+        <span onclick="newItem()" class="addBtn">Classificar</span>
+    </section>
+
+    <!-- Tabela com items existentes -->
+    <section class="items">
+        <table id="myTable">
+            <tr>
+                <th>Acidez fixada</th>
+                <th>Acidez volátil</th>
+                <th>Ácido cítrico</th>
+                <th>Açúcar residual</th>
+                <th>Clorídeos</th>
+                <th>Dióxido sulfúrico livre</th>
+                <th>Dióxido sulfúrico total</th>
+                <th>Densidade</th>
+                <th>pH</th>
+                <th>Sulfatos</th>
+                <th>Álcool</th>
+                <th>Classificação (nota)</th>
+                <!-- <th><img src="img/edit.png" width="15" height="15"></th> -->
+            </tr>
+        </table>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
+
+

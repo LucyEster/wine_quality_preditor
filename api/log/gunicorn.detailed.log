@@ -1,0 +1,2 @@
+[2024-09-25 14:53:09,478] INFO _log() L97   [33mPress CTRL+C to quit[0m - call_trace=C:\Users\luciv\Documents\projetos\mvp-qualidade-seguranca-sistemas-inteligentes\env\Lib\site-packages\werkzeug\_internal.py L97  
+[2024-09-25 14:53:17,196] INFO _log() L97   127.0.0.1 - - [25/Sep/2024 14:53:17] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\luciv\Documents\projetos\mvp-qualidade-seguranca-sistemas-inteligentes\env\Lib\site-packages\werkzeug\_internal.py L97  
